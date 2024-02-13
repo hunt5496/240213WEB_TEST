@@ -1,0 +1,77 @@
+1)
+IDE : 통합 개발 환경 툴
+(Eclipse, STS, VS code, Android Studio)
+
+2)
+확장팩.
+검색 :  vscode 유용한 확장팩.
+a. 배경화면 (테마), UI 관련된 확장팩. - 각자 설치
+b. 기능적으로, Live Server 설치(강사님 추천)
+live Server - 실시간으로 반영해줌.
+
+5)
+Git, Github 설치.
+a. Git 다운로드 받아서 설치.(별도 옵션 설정 없이 설치)
+b. Github 가입해서, 사용 준비.
+강사님과 실시간 코드 공유 할 예정. (버전관리.)
+
+샘플.
+각자 작업 폴더를 본인의 깃허브
+원격지 저장소에 업로드 작업.
+
+작업 순서
+1. 로그인 후 , 오른쪽 상단 프로필 클릭
+
+2. 오른쪽 초록색 버튼, 뉴 클릭
+
+3. Repository name : 240213WEB_TEST
+
+4. 설명
+ : HTML, CSS, JS 기본 연습장. 참고 문헌, 생활코딩, do it html, 블로그, gpt 등
+
+5. 기본, public 체크 됨.
+
+6. 아래에 체크박스 일단, 모두 놔두기
+
+7. Create repository 버튼 클릭.
+
+8. 이 부분의 복사 버튼 클릭
+…or create a new repository on the command line(...또는 부품줄에서 새 부품을 생성합니다.)
+
+9. 샘플 내용 : 내용은 각자 다 다름.
+추가 할 코드.
+예) git add .
+
+echo "# 240213WEB_TEST" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hunt5496/240213WEB_TEST.git
+git push -u origin main
+
+10. 각자 본인의 작업폴더를 정합니다.
+예) 문서 > WEB > 여기서, 폴더 3개 더 있음.
+
+11. 경로를 클릭해서, 여기에 "cmd" 입력하면, cmd 창이 생김.
+(해당 경로에서의 cmd 창이 열림.)
+
+12. 깃 허브 연결 시, 최초로 전역(Global)
+사용자 등록이 필요함.
+
+노트 패드, 추천. 한글이 자동완성 됨.
+
+
+ git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+ git config --global user.email "hunt5496@naver.com"
+  git config --global user.name "김병건"
+
+cmd > 명령어창에 복붙
+
+13. 9번에서, 샘플코드 복붙 했더니, 다시 인증을 물어봄.
+그래서, sign in with your browser 를 선택 하기.
+본인 깃허브 계정으로 로그인 처리 해주면.
+
+14.결과는 각자 깃허브 원격지 레포지토리에 저장된 화면 확인.
