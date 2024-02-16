@@ -45,6 +45,7 @@ b. Github 가입해서, 사용 준비.
 echo "# 240213WEB_TEST" >> README.md
 git init
 git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/hunt5496/240213WEB_TEST.git
@@ -66,12 +67,28 @@ git push -u origin main
   git config --global user.name "Your Name"
 
  git config --global user.email "hunt5496@naver.com"
-  git config --global user.name "김병건"
+  git config --global user.name "hunt5496"
 
-cmd > 명령어창에 복붙
+cmd > 명령어창에 복붙 read me 밑 "git add ." 추가
 
 13. 9번에서, 샘플코드 복붙 했더니, 다시 인증을 물어봄.
 그래서, sign in with your browser 를 선택 하기.
 본인 깃허브 계정으로 로그인 처리 해주면.
 
 14.결과는 각자 깃허브 원격지 레포지토리에 저장된 화면 확인.
+
+
+
+
+실습
+
+1. 본인자리 피씨에, 폴더  web2 만들어서
+
+2. github , 원격지 레포지토리에 연결 , 업로드 하기.
+
+깃 허브로, 강사님 코드를 실시간으로 공유하기 위함.
+
+1) https://github.com/lsy3709/240213WEB_TEST
+2) fork 클릭, 주의는 맨밑에 체크박스 해제, 메인 외에 브랜치 모두 복붙함.
+3) 결과는 본인의 레포지토리에 강사님 프로젝트가 공유 됨.
+
